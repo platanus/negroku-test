@@ -16,7 +16,7 @@ require 'capistrano/rails/migrations'
 
 # Node
 require 'capistrano/nodenv'
-require 'capistrano/bower'
+# require 'capistrano/bower'
 
 # App server
 require 'capistrano3/unicorn'
@@ -25,8 +25,8 @@ require 'capistrano3/unicorn'
 require 'capistrano/nginx'
 
 # Tools
-require 'capistrano/delayed-job'
-require 'whenever/capistrano'
+# require 'capistrano/delayed-job'
+# require 'whenever/capistrano'
 require 'negroku/eye'
 
 # NEGROKU
